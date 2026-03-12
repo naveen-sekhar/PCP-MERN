@@ -1,0 +1,423 @@
+[
+  {
+    "id": "tt0111161",
+    "name": "The Shawshank Redemption",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0068646",
+    "name": "The Godfather",
+    "genre": [
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0468569",
+    "name": "The Dark Knight",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0071562",
+    "name": "The Godfather Part II",
+    "genre": [
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0050083",
+    "name": "12 Angry Men",
+    "genre": [
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0108052",
+    "name": "Schindler's List",
+    "genre": [
+      "Biography",
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0167260",
+    "name": "The Lord of the Rings: The Return of the King",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0110912",
+    "name": "Pulp Fiction",
+    "genre": [
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0167261",
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0060196",
+    "name": "The Good, the Bad and the Ugly",
+    "genre": [
+      "Adventure",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0110148",
+    "name": "Forrest Gump",
+    "genre": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0137523",
+    "name": "Fight Club",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt1375666",
+    "name": "Inception",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "id": "tt0167262",
+    "name": "The Lord of the Rings: The Two Towers",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0080684",
+    "name": "Star Wars: Episode V - The Empire Strikes Back",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": "tt0133093",
+    "name": "The Matrix",
+    "genre": [
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "id": "tt0102926",
+    "name": "Silence of the Lambs",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0047478",
+    "name": "Seven Samurai",
+    "genre": [
+      "Action",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0114369",
+    "name": "Se7en",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0102481",
+    "name": "It's a Wonderful Life",
+    "genre": [
+      "Drama",
+      "Family",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": "tt0054215",
+    "name": "Psycho",
+    "genre": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0105771",
+    "name": "City of God",
+    "genre": [
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0110413",
+    "name": "Léon: The Professional",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0114814",
+    "name": "The Usual Suspects",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0245429",
+    "name": "Spirited Away",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ]
+  },
+  {
+    "id": "tt0103064",
+    "name": "Saving Private Ryan",
+    "genre": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0040366",
+    "name": "Casablanca",
+    "genre": [
+      "Drama",
+      "Romance",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0053125",
+    "name": "North by Northwest",
+    "genre": [
+      "Adventure",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0099685",
+    "name": "Goodfellas",
+    "genre": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0081505",
+    "name": "The Shining",
+    "genre": [
+      "Horror"
+    ]
+  },
+  {
+    "id": "tt0073486",
+    "name": "One Flew Over the Cuckoo's Nest",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0120737",
+    "name": "Life Is Beautiful",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0113277",
+    "name": "Heat",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082971",
+    "name": "Raiders of the Lost Ark",
+    "genre": [
+      "Action",
+      "Adventure"
+    ]
+  },
+  {
+    "id": "tt0047396",
+    "name": "Rear Window",
+    "genre": [
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0816692",
+    "name": "Interstellar",
+    "genre": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "id": "tt0050613",
+    "name": "Dr. Strangelove",
+    "genre": [
+      "Comedy",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0042192",
+    "name": "All About Eve",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0031141",
+    "name": "The Great Dictator",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0107290",
+    "name": "Jurassic Park",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "id": "tt0052357",
+    "name": "The Apartment",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0120338",
+    "name": "Titanic",
+    "genre": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0021749",
+    "name": "City Lights",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0118799",
+    "name": "Capernaum",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0112249",
+    "name": "Braveheart",
+    "genre": [
+      "Biography",
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt6751668",
+    "name": "Parasite",
+    "genre": [
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0033467",
+    "name": "Citizen Kane",
+    "genre": [
+      "Drama",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt1130884",
+    "name": "Shutter Island",
+    "genre": [
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0114709",
+    "name": "Toy Story",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ]
+  },
+  {
+    "id": "tt0088763",
+    "name": "Back to the Future",
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  }
+]

@@ -1,5 +1,6 @@
 const express = require("express");
 const axios = require("axios");
+const fs = require("fs");
 
 const app = express();
 
@@ -10,6 +11,9 @@ const PORT = process.env.PORT || 5000;
 let movies = [];
 
 async function loadMovies() {
+  if (fs.existsSync("movies_cache.json"))
+    return movies = JSON.parse(fs.readFileSync("movies_cache.json"));
+
   try {
     const tokenResponse = await axios.post("https://t4e-demotestserver.onrender.com/api/public/token",
       {
@@ -33,9 +37,10 @@ async function loadMovies() {
     );
     console.log("Movies loaded:", dataResponse.data);
     movies = dataResponse.data.data.movies;
+    fs.writeFileSync("movies_cache.json",JSON.stringify(movies,null,2));
     console.log("Movies loaded:", movies.length);
   }
-
+  
   catch (error)
   {
     if (error.response) {
@@ -70,11 +75,7 @@ app.get("/movies/count", (req, res) => {
 
 app.get("/movies/search", (req, res) => {
   const genre = req.query.genre;
-
-  const result = movies.filter(m =>
-    m.genre.includes(genre)
-  );
-
+  const result = movies.filter(m =>m.genre.includes(genre));
   res.json(result);
 });
 
@@ -84,7 +85,6 @@ app.get("/movies/search", (req, res) => {
 
 app.get("/movies/genres", (req, res) => {
   const genres = [...new Set(movies.flatMap(m => m.genre))];
-
   res.json({ genres });
 });
 
@@ -103,13 +103,9 @@ app.get("/movies/multi-genre", (req, res) => {
 
 app.get("/movies/genre/count", (req, res) => {
   const counts = {};
-
   movies.forEach(movie => {
-    movie.genre.forEach(g => {
-      counts[g] = (counts[g] || 0) + 1;
-    });
+    movie.genre.forEach(g => {counts[g] = (counts[g] || 0) + 1;});
   });
-
   res.json(counts);
 });
 
@@ -122,14 +118,13 @@ app.get("/movies/genre/first", (req, res) => {
       }
     });
   });
-  res.json(result);
+  res.json({result: res});
 });
 
 app.get("/movies/genre/popular", (req, res) => {
   const counts = {};
   movies.forEach(movie => {
-    movie.genre.forEach(g => {
-      counts[g] = (counts[g] || 0) + 1;
+    movie.genre.forEach(g => {counts[g] = (counts[g] || 0) + 1;
     });
   });
   let maxGenre = null;
